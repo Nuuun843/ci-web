@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Identitas Mahasiswa</title>
+  <style>
+    /* Warna dasar dan layout */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    /* Kartu identitas */
+    .card {
+      background: #fff;
+      padding: 40px 60px;
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+      text-align: center;
+      max-width: 400px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    /* Animasi hover */
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.35);
+    }
+
+    /* Judul */
+    h1 {
+      color: #2575fc;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+
+    /* Garis pemisah */
+    hr {
+      width: 60%;
+      border: 1px solid #ddd;
+      margin: 15px auto 25px auto;
+    }
+
+    /* Isi identitas */
+    p {
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+
+    strong {
+      color: #6a11cb;
+    }
+
+    /* Footer */
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.85em;
+      color: #eee;
+    }
+
+    footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Identitas Mahasiswa</h1>
+    <hr>
+    <p><strong>NIM:</strong> 230411100081</p>
+    <p><strong>Nama:</strong> Nor Ahmad Mahmud</p>
+    <p><strong>Program Studi:</strong> Informatika</p>
+    <p><strong>Kelas:</strong> 23-A</p>
+  </div>
+
+  <footer>
+    © 2025 | Dibuat untuk tugas Continuous Integration (CI) menggunakan GitHub Actions
+  </footer>
+</body>
+</html>
